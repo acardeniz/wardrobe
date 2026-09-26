@@ -1,5 +1,6 @@
 import { useRef } from 'react';
-import { useObjectUrl } from '../../../hooks/useObjectUrl';
+import { useObjectUrl } from '../../../../hooks/useObjectUrl.js'
+import "./ClothingSlot.css"
 
 export function ClothingSlot({ slot, file, onSelectFile, onClearFile}) {
     const fileInputRef = useRef(null);
